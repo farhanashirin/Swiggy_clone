@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: floralwhite;
+  max-width: 100%;
+}
+#nav {
+  height: 10vh;
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  flex-direction: row;
+}
+#logo {
+  height: 10px;
+  width: 10px;
+  margin-top: 3px;
+  margin-left: 10vw;
+}
+#addr {
+  width: 100%;
+  font-family: 'poppins', sans-serif;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-left: 4vw;
+  color: black;
+}
+#list1 {
+  color: rgb(251, 99, 4);
+}
+li {
+  list-style: none;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(251, 99, 4);
+  cursor: pointer;
+}
+#ulid {
+  display: inline-flex;
+  flex-direction: row;
+  width: 700px;
+  padding-left: 20vw;
+  font-family: 'poppins', sans-serif;
+  font-weight: bolder;
+  margin-right: 3px;
+}
+#se {
+  padding-top: 7px;
+  position: relative;
+  right: 5vw;
+  list-style: url('https://w7.pngwing.com/pngs/55/100/png-transparent-swiggy-hd-logo-thumbnail.png');
+}
+#he {
+  padding-left: 5vw;
+  padding-top: 7px;
+}
+#of {
+  padding-left: 1vh;
+  padding-top: 7px;
+}
+#pr {
+  padding-left: 5vw;
+  padding-top: 7px;
+}
+#ca {
+  padding-left: 5vw;
+  padding-top: 7px;
+}
+.food1 {
+  display: flex;
+  height: 25vh;
+  margin-left: 3vw;
+  margin-top: 0dp;
+  gap: 20px;
+}
+.food1:hover {
+  cursor: pointer;
+}
+.text_bold {
+  font-size: 'poppins,sams-serif';
+  margin-left: 5vw;
+  font-weight: bolder;
+  font-size: 2vw;
+  margin-top: 0dp;
+}
+#first_item {
+  display: inline-block;
+  padding: 0vh;
+  margin-left: 10vw;
+  filter: brightness(98%);
+  margin-top: 0dp;
+}
+#second_item {
+  display: inline-block;
+  padding: 0vh;
+  margin-left: 10vw;
+  margin-top: 6vh;
+  filter: brightness(98%);
+}
+.food2 {
+  display: flex;
+  height: 25vh;
+  margin-left: 5vw;
+  padding-top: 0vh;
+  gap: 50px;
+}
+.onef {
+  height: 160px;
+  width: 240px;
+  border-radius: 10px;
+}
+
+.onef:hover {
+  transform: scale(1.1);
+}
+.twof {
+  height: 160px;
+  width: 242px;
+  border-radius: 10px;
+}
+.twof:hover {
+  transform: scale(1.1);
+}
+.food2:hover {
+  cursor: pointer;
+}
+.hotel1 {
+  height: 120px;
+  width: 235px;
+}
+.addressh {
+  font-family: 'IBM plex sens', sans-serif;
+  font-weight: bolder;
+
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.fooditemh {
+  font-family: 'Aerial Black', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.greenlogo {
+  height: 25px;
+  float: left;
+}
+#ffootere1 {
+  height: 20vh;
+  width: 100%;
+  margin-top: 25vh;
+  display: flex;
+  gap: 10px;
+  background-color: darkgray;
+}
+.play {
+  height: 8vh;
+  margin-top: 6px;
+  margin-left: 30px;
+}
+.head {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  margin-left: 20vw;
+
+  bottom: 18px;
+  margin-bottom: 10px;
+}
+
+.play:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#darkblue {
+  height: 25vw;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  bottom: 3px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.endele:hover {
+  cursor: pointer;
+}
+.endmele {
+  color: white;
+  font-family: 'Aerial Black', Gadget, sans-serif;
+  font-weight: bolder;
+  margin-left: 5vh;
+  position: relative;
+}
+.endele {
+  color: white;
+}
+.horizero {
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+.horisec {
+  margin-left: 7vw;
+}
+.horifirst {
+  margin-left: 20vw;
+}
+.horithd {
+  margin-left: 5vw;
+}
+#swgname {
+  font-family: 'Aerial Black', Gadget, sans-serif;
+  color: #ffffff;
+}
+#third_item {
+  display: inline-block;
+  padding-top: 10vh;
+  margin-left: 10vw;
+  margin-top: 6vh;
+  filter: brightness(98%);
+}
+#fourth_item {
+  display: inline-block;
+  padding-top: 10vh;
+  margin-left: 10vw;
+  margin-top: 6vh;
+  filter: brightness(98%);
+}
+#ulid {
+  display: inline-block;
+  float: left;
+  padding: 3px;
+}
+
+.fa-solid {
+  margin: 5px;
+}
+.fa-regular {
+  margin: 5px;
+}
+
+.fa-solid {
+  margin: 5px;
+}
+.fa-thin {
+  margin: 5px;
+}
